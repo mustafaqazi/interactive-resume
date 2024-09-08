@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Qazi - Static Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="mypic.jpg" alt="Mustafa Qazi" class="profile-picture">
+                <h1>Mustafa Qazi</h1>
+                <p class="title">IT Manager</p>
+            </div>
+            <nav>
+                <button class="nav-btn" data-target="about">About</button>
+                <button class="nav-btn" data-target="skills">Skills</button>
+                <button class="nav-btn" data-target="experience">Experience</button>
+                <button class="nav-btn" data-target="education">Education</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" class="section-content active">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <p>Highly accomplished and results-oriented professional with a strong background in information technology, seeking a challenging role as Assistant Director of Information Technology. Committed to leveraging technical expertise and leadership skills to optimize IT operations, enhance productivity, and drive business growth. Adept at fostering collaborative relationships, managing cross-functional teams, and implementing innovative solutions to meet organizational objectives.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> mustafamhq@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 92 333 3284971</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
+                </div>
+            </section>
+
+            <section id="skills" class="section-content">
+                <h2><i class="fas fa-cogs"></i> Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="HTML5">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item" data-skill="CSS3">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item" data-skill="JavaScript">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item" data-skill="TypeScript">
+                        <i class="fab fa-js"></i>
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="skill-item" data-skill="ComputerNetworks">
+                        <i class="fab fa-react"></i>
+                        <span>Computer Networks</span>
+                    </div>
+                    <div class="skill-item" data-skill="DataAnalysis">
+                        <i class="fab fa-node-js"></i>
+                        <span>Data Analysis</span>
+                    </div>
+                    <div class="skill-item" data-skill="Git">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="section-content">
+                <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Assistant Director IT</h3>
+                            <h4>Sindh Education Foundation</h4>
+                            <p class="date">April 2018 - Present</p>
+                            <ul>
+                                <li>Maintain and support computer systems and IT Infrastructure</li>
+                       <li>Lead and supervise a team of IT professionals, ensuring efficient operations and alignment with organizational goals</li>
+                        <li> implemented IT strategies, policies, and procedures to optimize technology utilization and enhance system reliability and security</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>IT Executive</h3>
+                            <h4>Inchcape Shipping Services</h4>
+                            <p class="date">June 2016 - Sep2017</p>
+                            <ul>
+                                <li>Day-to-day operations of the IT department, ensuring the availability and reliability of systems and infrastructure</li>
+                                <li>Oversaw the successful implementation of an enterprise-wide ERP system, streamlining business processes and improving data visibility and reporting capabilities</li>
+                                 <li>Application Software Support; Freight Information System, MYSAP, SHIPS, Dream, Hyperion (Smart View), Weboc, PRAL</li>     
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="section-content">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <h4>University of Huddersfield</h4>
+                    <p class="date">Graduated: May 2004</p>
+                    <p>GPA: 2.6/4.0</p>
+                    <h3>Masters in Business Administration</h3>
+                    <h4>Virtual University of Pakistan</h4>
+                    <p class="date">Graduated: Apr 2011</p>
+                    <p>GPA: 2.8/4.0</p>
+
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
